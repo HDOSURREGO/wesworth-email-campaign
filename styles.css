@@ -34,3 +34,69 @@ div[style*="margin: 16px 0"] {
 	max-width: 600px;
 	height: auto;
 }
+
+.outer {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+}
+
+.inner {
+	padding: 10px;
+}
+p {
+	margin: 0;
+}
+a {
+	color: #ee6a56;
+	text-decoration: underline;
+}
+.h1 {
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+/* One column layout */
+.one-column .contents {
+	text-align: left;
+}
+.one-column p {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+/*Two column layout*/
+.two-column {
+	text-align: center;
+	font-size: 0;
+}
+
+.two-column .column {
+	width: 100%;
+	max-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contents {
+	width: 100%;
+}
+
+.two-column .contents {
+	font-size: 14px;
+	text-align: left;
+}
+.two-column img {
+	width: 100%;
+	max-width: 280px;
+	height: auto;
+}
+.two-column .text {
+	padding-top: 10px;
+}
