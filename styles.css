@@ -14,7 +14,8 @@ td {
 }
 
 td .text {
-	vertical-align: bottom;
+	vertical-align: center;
+	color: white;
 }
 
 img {
@@ -49,6 +50,11 @@ div[style*="margin: 16px 0"] {
 .inner {
 	padding: 10px;
 }
+
+.inner-contents {
+	background-color: #404041;
+}
+
 p {
 	margin: 0;
 	text-align: center;
@@ -58,9 +64,10 @@ a {
 	text-decoration: underline;
 }
 .h1 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 18px;
+	color: #ee6a56;
 }
 .h2 {
 	font-size: 14px;
@@ -82,6 +89,7 @@ a {
 .two-column {
 	text-align: center;
 	font-size: 0;
+	background-color: #404041;
 }
 
 .two-column .column {
@@ -116,6 +124,19 @@ a {
 	width: 10%;
 }
 
-.text .p {
-	color: white;
+p .text {
+	color: purple;
+	font-size: 8px;
+}
+.btn {
+	background-color: white;
+	color: #e15829;
+	width: 95%;
+	padding: 10px 10px 10px 0px;
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 5px;
+	font-family: "futuraStdHeavy";
+	font-size: 16px;
+	text-align: center;
 }
