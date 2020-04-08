@@ -12,6 +12,11 @@ table {
 td {
 	padding: 0;
 }
+
+td .text {
+	vertical-align: bottom;
+}
+
 img {
 	border: 0;
 }
@@ -32,7 +37,7 @@ div[style*="margin: 16px 0"] {
 .full-width-image img {
 	width: 100%;
 	max-width: 600px;
-	height: auto;
+	height: 600px;
 }
 
 .outer {
@@ -46,18 +51,19 @@ div[style*="margin: 16px 0"] {
 }
 p {
 	margin: 0;
+	text-align: center;
 }
 a {
 	color: #ee6a56;
 	text-decoration: underline;
 }
 .h1 {
-	font-size: 21px;
+	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 18px;
 }
 .h2 {
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 12px;
 }
@@ -69,6 +75,7 @@ a {
 .one-column p {
 	font-size: 14px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 /*Two column layout*/
@@ -99,4 +106,16 @@ a {
 }
 .two-column .text {
 	padding-top: 10px;
+}
+
+.logoWE {
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	z-index: 2;
+	width: 10%;
+}
+
+.text .p {
+	color: white;
 }
