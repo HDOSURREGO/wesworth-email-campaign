@@ -19,7 +19,7 @@
 			table {
 				border-spacing: 0;
 				font-family: sans-serif;
-				color: #333333;
+				color: white;
 				border: 0;
 				padding: 0;
 			}
@@ -30,6 +30,10 @@
 			td .text {
 				vertical-align: center;
 				color: white;
+			}
+
+			column td .inner td .text .h2 {
+				text-align: center;
 			}
 
 			img {
@@ -63,7 +67,7 @@
 			}
 
 			.inner {
-				padding: 10px;
+				padding: 5px;
 			}
 
 			.inner-contents {
@@ -71,8 +75,9 @@
 			}
 
 			p {
+				padding: 5px;
 				margin: 0;
-				text-align: center;
+				text-align: justify;
 			}
 			a {
 				color: #ee6a56;
@@ -81,12 +86,13 @@
 			.h1 {
 				font-size: 18px;
 				font-weight: bold;
-				margin-bottom: 18px;
 				color: #ee6a56;
 			}
 			.h2 {
 				font-size: 14px;
 				font-weight: bold;
+				text-align: center;
+				align-items: center;
 				margin-bottom: 12px;
 			}
 
@@ -115,6 +121,10 @@
 				display: inline-block;
 				vertical-align: top;
 			}
+			.two-column .h2 {
+				text-align: center;
+				align-items: center;
+			}
 
 			.contents {
 				width: 100%;
@@ -132,12 +142,8 @@
 				align-items: center;
 				vertical-align: top;
 			}
-			.two-column-header .column .text {
-				padding-top: 20px;
-				max-width: 50%;
-			}
 			.two-column .text {
-				padding-top: 10px;
+				padding-top: 5px;
 			}
 
 			.logoWE {
@@ -148,10 +154,10 @@
 				width: 10%;
 			}
 
-			p .text {
+			/* p .text {
 				color: purple;
-				font-size: 8px;
-			}
+				font-size: 10px;
+			} */
 			.btn {
 				background-color: white;
 				color: #e15829;
@@ -218,8 +224,11 @@
 											<table class="contents">
 												<tr>
 													<td class="text">
-														HI, WE HOPE YOU ARE DOING WELL. THESE COULD BE TOUGH
-														TIMES BUT WE ARE IN THIS TOGETHER.
+														<!-- HI, WE HOPE YOU ARE DOING WELL. THESE COULD BE TOUGH
+														TIMES BUT WE ARE IN THIS TOGETHER. -->
+														<p class="h2">
+															COVID19 IS NOT STOPPING US<br />from HELPING YOU
+														</p>
 													</td>
 												</tr>
 											</table>
@@ -235,7 +244,7 @@
 						</td>
 					</tr>
 
-					<tr>
+					<!-- <tr>
 						<td class="one-column">
 							<table width="100%">
 								<tr>
@@ -250,16 +259,15 @@
 								</tr>
 							</table>
 						</td>
-					</tr>
+					</tr> -->
 					<tr>
 						<td class="one-column">
 							<table width="100%">
 								<tr>
 									<td>
 										<img
-											src="https://s3.amazonaws.com/www.wesworthconstructiongroup.com/images/wesworth-crew.jpg"
+											src="./industrial_services_composition_50opacity600.jpg"
 											width="100%"
-											heigth="300px"
 											alt="WElogo"
 										/>
 									</td>
@@ -289,7 +297,7 @@
 														href="http://www.wesworthconstructiongroup.com/electric"
 													>
 														<button type="submit" class="btn">
-															SCHEDULE A SERVICE CALL
+															GO TO OUR WEBSITE TO SCHEDULE A SERVICE CALL
 														</button></a
 													>
 												</td>
@@ -309,8 +317,7 @@
 										<table class="contents">
 											<tr>
 												<td class="text">
-													<p>GIVE US A CALL</p>
-													<p>(954) 580 4070</p>
+													<p class="h2">GIVE US A CALL<br />(954) 580 4070</p>
 												</td>
 											</tr>
 										</table>
@@ -325,6 +332,37 @@
 									<![endif]-->
 					</td>
 					<tr>
+						<td class="one-column">
+							<table width="100%">
+								<tr>
+									<td class="inner-contents">
+										<p class="h1">
+											Professional Electrical Services<br />INDUSTRIAL CUSTOMERS
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="one-column">
+							<table width="100%">
+								<tr>
+									<td class="inner-contents">
+										<p class="text">
+											If your production is higher than usual due to an Increase
+											of the demand of your product, we are on call for any
+											electrical issue or need your Installation may have. If
+											your production is unfortunately down, we can help you
+											with any preventive / predictive maintenance need so you
+											can be ready for the upcoming start up.
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
 						<td class="two-column">
 							<!--[if (gte mso 9)|(IE)]>
 								<table width="100%">
@@ -338,58 +376,13 @@
 											<table class="contents">
 												<tr>
 													<td class="text">
-														<p class="h1">Predictive Maintenance</p>
+														<!-- <p class="h1">Scheduled Maintenance</p> -->
 														<p>
-															If your company's equipment is under pressure
+															<!-- If your company's equipment is under pressure
 															right now with workloads higher than usual, we can
 															help you monitor and place or Predictive
-															Maintenance Plan to stay running in though times.
+															Maintenance Plan to stay running in though times. -->
 														</p>
-
-														<ul>
-															<li>
-																Perform an all-points audit of electrical
-																systems
-															</li>
-															<li>Infrared Thermal Scanning</li>
-															<li>Offline Electrical Testing</li>
-															<li>Online Motor Testing</li>
-															<li>Power/Current Analysis</li>
-															<li>
-																Surge suppressors installation and maintenance
-															</li>
-															<li>
-																Exit and Emergency lighting installation and
-																maintenance
-															</li>
-														</ul>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</div>
-							<!--[if (gte mso 9)|(IE)]>
-											</td><td width="50%" valign="top">
-												<![endif]-->
-							<div class="column">
-								<table width="100%">
-									<tr>
-										<td class="inner">
-											<table class="contents">
-												<tr>
-													<td class="text">
-														<p class="h1">Scheduled Maintenance</p>
-
-														<p>
-															If your company has been affected by the
-															coronavirus and is having a slow down, this could
-															be the best time to have a thorough Scheduled
-															Maintenance and avoid total down times when high
-															demand is back.
-														</p>
-
 														<ul>
 															<li>Buck and boost transformers</li>
 															<li>Motor controllers</li>
@@ -416,6 +409,49 @@
 								</table>
 							</div>
 							<!--[if (gte mso 9)|(IE)]>
+											</td><td width="50%" valign="top">
+												<![endif]-->
+							<div class="column">
+								<table width="100%">
+									<tr>
+										<td class="inner">
+											<table class="contents">
+												<tr>
+													<td class="text">
+														<!-- <p class="h1">Predictive Maintenance</p> -->
+
+														<p>
+															<!-- If your company has been affected by the
+															coronavirus and is having a slow down, this could
+															be the best time to have a thorough Scheduled
+															Maintenance and avoid total down times when high
+															demand is back. -->
+														</p>
+														<ul>
+															<li>
+																Perform an all-points audit of electrical
+																systems
+															</li>
+															<li>Infrared Thermal Scanning</li>
+															<li>Offline Electrical Testing</li>
+															<li>Online Motor Testing</li>
+															<li>Power/Current Analysis</li>
+															<li>
+																Surge suppressors installation and maintenance
+															</li>
+															<li>
+																Exit and Emergency lighting installation and
+																maintenance
+															</li>
+														</ul>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<!--[if (gte mso 9)|(IE)]>
 												</td>
 											</tr>
 										</table>
@@ -428,9 +464,13 @@
 							<table width="100%">
 								<tr>
 									<td class="inner-contents">
+										<p>
+											At Wesworth Electric we are taking all the possible health
+											related precautions to cope with the COVID19 Virus
+										</p>
 										<a href="http://www.wesworthconstructiongroup.com/electric">
 											<button type="submit" class="btn">
-												SCHEDULE A SERVICE CALL
+												GO TO OUR WEBSITE TO SCHEDULE A SERVICE CALL
 											</button></a
 										>
 									</td>
@@ -473,7 +513,12 @@
 											<table class="contents">
 												<tr>
 													<td class="text">
-														<p class="text">Unsubscribe from email listing</p>
+														<a href=" " class="text"
+															>Unsubscribe from email listing</a
+														><br />
+														<a href=" " class="text"
+															>Click here to see this email in your browser</a
+														>
 													</td>
 												</tr>
 											</table>

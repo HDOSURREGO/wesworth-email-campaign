@@ -61,6 +61,7 @@ div[style*="margin: 16px 0"] {
 p {
 	margin: 0;
 	text-align: center;
+	color: white;
 }
 a {
 	color: #ee6a56;
@@ -113,17 +114,11 @@ a {
 	text-align: left;
 	height: 100%;
 }
-.two-column-header img {
-	width: 25%;
-	max-width: 280px;
-	height: auto;
-	align-items: center;
-	vertical-align: top;
-}
-.two-column-header .column .text {
+
+/* .two-column-header .column .text {
 	padding-top: 20px;
 	max-width: 50%;
-}
+} */
 .two-column .text {
 	padding-top: 10px;
 }
@@ -137,7 +132,7 @@ a {
 }
 
 p .text {
-	color: purple;
+	color: white;
 	font-size: 8px;
 }
 .btn {
@@ -145,7 +140,7 @@ p .text {
 	color: #e15829;
 	width: 90%;
 	padding: 10px 10px 10px 10px;
-	border: 1px solid black;
+	border: 1px solid white;
 	margin: 10px;
 	border-radius: 5px;
 	font-family: "futuraStdHeavy";
