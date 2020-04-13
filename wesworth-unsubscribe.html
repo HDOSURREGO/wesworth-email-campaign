@@ -3,7 +3,80 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Wesworth - Unsubscribe</title>
+		<title>Wesworth - Unsubscribe Form</title>
 	</head>
-	<body></body>
+	<body>
+		<div>
+			<div class="unsubscribe">
+				<div class="unsubscribe-header">
+					<img
+						src="https://s3.amazonaws.com/www.wesworthconstructiongroup.com/images/WElectric_transparente.png"
+						width="80px"
+						alt="WElogo"
+					/>
+					<p>
+						We don't like either to receive emails we don't want. Althoug we
+						think we don't send too many emails, please let us know the reason
+						you don't want to receive our emails
+					</p>
+				</div>
+				<div>
+					<form class="unsubscribe-form" onsubmit=" " method="POST">
+						<input
+							type="radio"
+							class="input-field"
+							name="reasonToUnsubscribe"
+							value="Never subscribed and no interested"
+						/>
+						<label for="neverSubscribed"
+							>Never subscribed and not interested</label
+						><br />
+						<input
+							type="radio"
+							class="input-field"
+							name="reasonToUnsubscribe"
+							value="Emails look like spam"
+						/>
+						<label>Emails look like spam</label><br />
+						<input
+							type="radio"
+							class="input-field"
+							name="reasonToUnsubscribe"
+							value="Irrelevant content for me"
+						/>
+						<label>Irrelevant content for me</label><br />
+						<input
+							type="radio"
+							class="input-field"
+							name="reasonToUnsubscribe"
+							value="Too many emails"
+						/>
+						<label>Too many emails</label><br />
+
+						<input
+							type="radio"
+							class="input-field"
+							name="reasonToUnsubscribe"
+							value="Other"
+						/>
+						<label>Other</label><br />
+						<label>Description</label><br />
+						<textarea
+							class="input-field"
+							rows="5"
+							name="reasonToUnsubscribe"
+							value=""
+						></textarea
+						><br />
+						<button type="submit" class="btn">
+							Cancel
+						</button>
+						<button type="submit" class="btn">
+							Submit
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
